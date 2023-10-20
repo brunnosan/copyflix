@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body .background {
+    /* background-color: black;
+    color: white; */
+    display: block;
+    /* opacity: 0.5; */
+    position: absolute;
+    z-index: -1;
+}
+
+body header .cabecalho {
+    display: block;
+    height: 90px;
+    width: 167px;
+    position: absolute;
+}
+
+body header a {
+    display: inline-block;
+    line-height: 90px;
+    margin-left: 23px;
+    height: 45px;
+    width: 167px;
+}
+
+body header img {
+    vertical-align: middle;
+}
